@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Donor</title>
+  <link rel="stylesheet" href="donor.css">
+</head>
+
+<body>
+  <header>
+    <h1>Food Donor</h1>
+  </header>
+
+  <main>
+    <form id="donation-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="meals">Number of Meals:</label>
+      <input type="number" id="meals" min="1" required>
+
+      <label for="email">Provide your Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="PhoneNumber">Enter Your phone number:</label>
+      <input type="number" id="PhoneNumber" required>
+
+      <label for="">Number of Meals:</label>
+      <input type="number" id="meals" min="1" required>
+
+      <button type="submit">Donate</button>
+    </form>
+
+    <div id="success-message" class="hidden">
+      Thank you for your donation!
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

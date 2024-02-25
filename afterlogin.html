@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Details</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .btn-container {
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+            text-decoration: none; /* Added to remove default link underline */
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Account Details</h2>
+        <div class="btn-container">
+            <a href="mydetails.html" class="btn">My Details</a>
+            <a href="https://forms.gle/4mY44TbyG6w8QTW26" class="btn">Donor Details</a>
+            <a href="admin_login.html" class="btn">Admin-login</a>
+            <a href="food-collecting-details.html" class="btn">Food Collecting Details</a>
+            <a href="https://www.google.co.in/maps/search/orphanage+near+me/@9.5801202,77.6153427,12z/data=!3m1!4b1?entry=ttu" class="btn">Orphanage nearme</a>
+        </div>
+    </div>
+
+    <!-- Include Firebase SDK and authentication state listener -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase-app.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase-auth.js"></script> -->
+
+    <script>
+        // Add your JavaScript code here to handle user authentication
+        // Example: Authenticate the user using Firebase Authentication
+        /*
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                // User is signed in, handle authentication-related tasks here
+            } else {
+                // User is not signed in, handle this case if needed
+            }
+        });
+        */
+    </script>
+</body>
+</html>
